@@ -8,6 +8,15 @@
 
 #import "AppDelegate.h"
 
+#import "MenuViewController.h"
+#import "MapViewController.h"
+#import <GoogleMaps/GoogleMaps.h>
+#import <Stripe/Stripe.h>
+#import <Parse/Parse.h>
+
+#import "PaymentViewController.h"
+
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +25,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    [Parse initializeWithConfiguration:[ParseClientConfiguration configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
+        configuration.applicationId = @"OLB209z73MKo8X85g8v38y1RarGcpzwQ";
+        configuration.clientKey = @"unused";
+        configuration.server = @"http://woof-server.herokuapp.com/parse";
+    }]];
+    
+    [GMSServices provideAPIKey:@"AIzaSyCgfZtkkbRE-VYkhgwb0JVDD_Iy5-ozYJ4"];
+    
+    [Stripe setDefaultPublishableKey:@"pk_test_2vf9mcUQ31NUYxRm81FtTCsn"];
+    
+    
     return YES;
 }
 

@@ -9,10 +9,59 @@
 /* Begin PBXBuildFile section */
 		CD229F0C1C60DF9400B86692 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD229F0B1C60DF9400B86692 /* main.m */; };
 		CD229F0F1C60DF9400B86692 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD229F0E1C60DF9400B86692 /* AppDelegate.m */; };
-		CD229F121C60DF9400B86692 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD229F111C60DF9400B86692 /* ViewController.m */; };
+		CD229F121C60DF9400B86692 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD229F111C60DF9400B86692 /* MapViewController.m */; };
 		CD229F151C60DF9400B86692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD229F131C60DF9400B86692 /* Main.storyboard */; };
-		CD229F171C60DF9400B86692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD229F161C60DF9400B86692 /* Assets.xcassets */; };
 		CD229F1A1C60DF9400B86692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD229F181C60DF9400B86692 /* LaunchScreen.storyboard */; };
+		CD229F241C62E39B00B86692 /* SWRevealViewController in Resources */ = {isa = PBXBuildFile; fileRef = CD229F231C62E39B00B86692 /* SWRevealViewController */; };
+		CD229F281C62E46300B86692 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD229F271C62E46300B86692 /* SWRevealViewController.m */; };
+		CD229F2C1C62E50600B86692 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD229F2B1C62E50600B86692 /* MenuViewController.m */; };
+		CD523CDF1C8E64EF00EBB50C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD523CDD1C8E64EF00EBB50C /* Bolts.framework */; };
+		CD523CE01C8E64EF00EBB50C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD523CDE1C8E64EF00EBB50C /* Parse.framework */; };
+		CD523CE71C8E661200EBB50C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD523CE11C8E661200EBB50C /* AudioToolbox.framework */; };
+		CD523CE81C8E661200EBB50C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD523CE21C8E661200EBB50C /* CFNetwork.framework */; };
+		CD523CE91C8E661200EBB50C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD523CE31C8E661200EBB50C /* CoreGraphics.framework */; };
+		CD523CEA1C8E661200EBB50C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD523CE41C8E661200EBB50C /* libsqlite3.tbd */; };
+		CD523CEB1C8E661200EBB50C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD523CE51C8E661200EBB50C /* Security.framework */; };
+		CD523CEC1C8E661200EBB50C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD523CE61C8E661200EBB50C /* StoreKit.framework */; };
+		CD523CEF1C94B3BD00EBB50C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD523CEE1C94B3BD00EBB50C /* SignUpViewController.m */; };
+		CD5E43131C7BE9AA001202C0 /* EditPetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5E43121C7BE9AA001202C0 /* EditPetViewController.m */; };
+		CD5E43151C7C8F59001202C0 /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5E43141C7C8F59001202C0 /* Stripe.framework */; };
+		CD5E43181C7C901B001202C0 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5E43171C7C901B001202C0 /* PaymentViewController.m */; };
+		CD9602A51CB0706F00B5DE03 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9602A21CB0706F00B5DE03 /* libCardIO.a */; };
+		CD9602A61CB0706F00B5DE03 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9602A31CB0706F00B5DE03 /* libopencv_core.a */; };
+		CD9602A71CB0706F00B5DE03 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9602A41CB0706F00B5DE03 /* libopencv_imgproc.a */; };
+		CD9602AA1CB1501A00B5DE03 /* WoofPet.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9602A91CB1501900B5DE03 /* WoofPet.m */; };
+		CDCCBC6B1CB06834007BF60B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCCBC6A1CB06834007BF60B /* CoreMedia.framework */; };
+		CDCCBC6D1CB06844007BF60B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCCBC6C1CB06844007BF60B /* CoreVideo.framework */; };
+		CDCCBC6F1CB06858007BF60B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCCBC6E1CB06858007BF60B /* Foundation.framework */; };
+		CDCCBC711CB06866007BF60B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCCBC701CB06866007BF60B /* MobileCoreServices.framework */; };
+		CDCCBC731CB068F9007BF60B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCCBC721CB068F9007BF60B /* UIKit.framework */; };
+		CDCE89211CA8985A00F27AA4 /* AddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCE89201CA8985A00F27AA4 /* AddCardViewController.m */; };
+		CDCE89231CAA087100F27AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCE89221CAA087100F27AA4 /* Assets.xcassets */; };
+		CDDD7F861C9F1D9300B13B56 /* WoofCreditCard.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7F851C9F1D9300B13B56 /* WoofCreditCard.m */; };
+		CDDD7F891C9F1EE700B13B56 /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7F881C9F1EE700B13B56 /* ConnectionManager.m */; };
+		CDDD7F8C1C9F396F00B13B56 /* ActivitySpinnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7F8B1C9F396F00B13B56 /* ActivitySpinnerViewController.m */; };
+		CDEC89D51C6654B1006D0470 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89D41C6654B1006D0470 /* GoogleMaps.framework */; };
+		CDEC89D71C6654F3006D0470 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDEC89D61C6654F3006D0470 /* GoogleMaps.bundle */; };
+		CDEC89E11C66555D006D0470 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89D81C66555D006D0470 /* AVFoundation.framework */; };
+		CDEC89E21C66555D006D0470 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89D91C66555D006D0470 /* CoreData.framework */; };
+		CDEC89E31C66555D006D0470 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89DA1C66555D006D0470 /* CoreLocation.framework */; };
+		CDEC89E41C66555D006D0470 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89DB1C66555D006D0470 /* CoreText.framework */; };
+		CDEC89E51C66555D006D0470 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89DC1C66555D006D0470 /* GLKit.framework */; };
+		CDEC89E61C66555D006D0470 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89DD1C66555D006D0470 /* ImageIO.framework */; };
+		CDEC89E71C66555D006D0470 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89DE1C66555D006D0470 /* OpenGLES.framework */; };
+		CDEC89E81C66555D006D0470 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89DF1C66555D006D0470 /* QuartzCore.framework */; };
+		CDEC89E91C66555D006D0470 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89E01C66555D006D0470 /* SystemConfiguration.framework */; };
+		CDEC89EB1C6655DB006D0470 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89EA1C6655DB006D0470 /* libc++.tbd */; };
+		CDEC89ED1C6655ED006D0470 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89EC1C6655ED006D0470 /* libicucore.tbd */; };
+		CDEC89EF1C6655F7006D0470 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89EE1C6655F7006D0470 /* libz.tbd */; };
+		CDEC89F11C66564E006D0470 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89F01C66564E006D0470 /* CoreBluetooth.framework */; };
+		CDEC89F31C665696006D0470 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEC89F21C665696006D0470 /* Accelerate.framework */; };
+		CDEC89F61C669790006D0470 /* menuButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEC89F51C669790006D0470 /* menuButton.png */; };
+		CDEC89F91C669FF6006D0470 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEC89F81C669FF6006D0470 /* SettingsViewController.m */; };
+		CDEC89FC1C6CBAE8006D0470 /* PetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEC89FB1C6CBAE8006D0470 /* PetsViewController.m */; };
+		CDEC8A021C6CBCDB006D0470 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEC8A011C6CBCDB006D0470 /* HistoryViewController.m */; };
+		CDFDF9ED1CA018C3005395D3 /* EditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFDF9EC1CA018C3005395D3 /* EditCardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +69,83 @@
 		CD229F0B1C60DF9400B86692 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD229F0D1C60DF9400B86692 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD229F0E1C60DF9400B86692 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD229F101C60DF9400B86692 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD229F111C60DF9400B86692 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD229F101C60DF9400B86692 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		CD229F111C60DF9400B86692 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		CD229F141C60DF9400B86692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD229F161C60DF9400B86692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD229F191C60DF9400B86692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD229F1B1C60DF9400B86692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD229F231C62E39B00B86692 /* SWRevealViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SWRevealViewController; path = /Users/Patrick/Desktop/Woof/Woof/SWRevealViewController; sourceTree = "<absolute>"; };
+		CD229F261C62E46300B86692 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		CD229F271C62E46300B86692 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		CD229F2A1C62E50600B86692 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		CD229F2B1C62E50600B86692 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		CD523CDD1C8E64EF00EBB50C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CD523CDE1C8E64EF00EBB50C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CD523CE11C8E661200EBB50C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CD523CE21C8E661200EBB50C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CD523CE31C8E661200EBB50C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD523CE41C8E661200EBB50C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CD523CE51C8E661200EBB50C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CD523CE61C8E661200EBB50C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CD523CED1C94B3BD00EBB50C /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		CD523CEE1C94B3BD00EBB50C /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		CD5E43111C7BE9AA001202C0 /* EditPetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPetViewController.h; sourceTree = "<group>"; };
+		CD5E43121C7BE9AA001202C0 /* EditPetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPetViewController.m; sourceTree = "<group>"; };
+		CD5E43141C7C8F59001202C0 /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Stripe.framework; sourceTree = "<group>"; };
+		CD5E43161C7C901B001202C0 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		CD5E43171C7C901B001202C0 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		CD96029A1CB0706F00B5DE03 /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		CD96029B1CB0706F00B5DE03 /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		CD96029C1CB0706F00B5DE03 /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIODetectionMode.h; sourceTree = "<group>"; };
+		CD96029D1CB0706F00B5DE03 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		CD96029E1CB0706F00B5DE03 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		CD96029F1CB0706F00B5DE03 /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
+		CD9602A01CB0706F00B5DE03 /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
+		CD9602A11CB0706F00B5DE03 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
+		CD9602A21CB0706F00B5DE03 /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
+		CD9602A31CB0706F00B5DE03 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
+		CD9602A41CB0706F00B5DE03 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
+		CD9602A81CB1501900B5DE03 /* WoofPet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoofPet.h; sourceTree = "<group>"; };
+		CD9602A91CB1501900B5DE03 /* WoofPet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoofPet.m; sourceTree = "<group>"; };
+		CDCCBC6A1CB06834007BF60B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CDCCBC6C1CB06844007BF60B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CDCCBC6E1CB06858007BF60B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDCCBC701CB06866007BF60B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CDCCBC721CB068F9007BF60B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDCE891F1CA8985A00F27AA4 /* AddCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCardViewController.h; sourceTree = "<group>"; };
+		CDCE89201CA8985A00F27AA4 /* AddCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCardViewController.m; sourceTree = "<group>"; };
+		CDCE89221CAA087100F27AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDDD7F841C9F1D9300B13B56 /* WoofCreditCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoofCreditCard.h; sourceTree = "<group>"; };
+		CDDD7F851C9F1D9300B13B56 /* WoofCreditCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoofCreditCard.m; sourceTree = "<group>"; };
+		CDDD7F871C9F1EE700B13B56 /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		CDDD7F881C9F1EE700B13B56 /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		CDDD7F8A1C9F396F00B13B56 /* ActivitySpinnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivitySpinnerViewController.h; sourceTree = "<group>"; };
+		CDDD7F8B1C9F396F00B13B56 /* ActivitySpinnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivitySpinnerViewController.m; sourceTree = "<group>"; };
+		CDEC89D41C6654B1006D0470 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		CDEC89D61C6654F3006D0470 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		CDEC89D81C66555D006D0470 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CDEC89D91C66555D006D0470 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CDEC89DA1C66555D006D0470 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CDEC89DB1C66555D006D0470 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		CDEC89DC1C66555D006D0470 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CDEC89DD1C66555D006D0470 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		CDEC89DE1C66555D006D0470 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CDEC89DF1C66555D006D0470 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDEC89E01C66555D006D0470 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CDEC89EA1C6655DB006D0470 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		CDEC89EC1C6655ED006D0470 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		CDEC89EE1C6655F7006D0470 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CDEC89F01C66564E006D0470 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CDEC89F21C665696006D0470 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CDEC89F51C669790006D0470 /* menuButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuButton.png; sourceTree = "<group>"; };
+		CDEC89F71C669FF6006D0470 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		CDEC89F81C669FF6006D0470 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		CDEC89FA1C6CBAE8006D0470 /* PetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetsViewController.h; sourceTree = "<group>"; };
+		CDEC89FB1C6CBAE8006D0470 /* PetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetsViewController.m; sourceTree = "<group>"; };
+		CDEC8A001C6CBCDB006D0470 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		CDEC8A011C6CBCDB006D0470 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		CDFDF9EB1CA018C3005395D3 /* EditCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCardViewController.h; sourceTree = "<group>"; };
+		CDFDF9EC1CA018C3005395D3 /* EditCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +153,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDCCBC731CB068F9007BF60B /* UIKit.framework in Frameworks */,
+				CDEC89E71C66555D006D0470 /* OpenGLES.framework in Frameworks */,
+				CDCCBC711CB06866007BF60B /* MobileCoreServices.framework in Frameworks */,
+				CDCCBC6F1CB06858007BF60B /* Foundation.framework in Frameworks */,
+				CDCCBC6D1CB06844007BF60B /* CoreVideo.framework in Frameworks */,
+				CDCCBC6B1CB06834007BF60B /* CoreMedia.framework in Frameworks */,
+				CD523CE71C8E661200EBB50C /* AudioToolbox.framework in Frameworks */,
+				CD9602A51CB0706F00B5DE03 /* libCardIO.a in Frameworks */,
+				CD523CE81C8E661200EBB50C /* CFNetwork.framework in Frameworks */,
+				CD523CE91C8E661200EBB50C /* CoreGraphics.framework in Frameworks */,
+				CD523CEA1C8E661200EBB50C /* libsqlite3.tbd in Frameworks */,
+				CD523CEB1C8E661200EBB50C /* Security.framework in Frameworks */,
+				CD9602A61CB0706F00B5DE03 /* libopencv_core.a in Frameworks */,
+				CD523CEC1C8E661200EBB50C /* StoreKit.framework in Frameworks */,
+				CDEC89EF1C6655F7006D0470 /* libz.tbd in Frameworks */,
+				CDEC89F31C665696006D0470 /* Accelerate.framework in Frameworks */,
+				CDEC89F11C66564E006D0470 /* CoreBluetooth.framework in Frameworks */,
+				CD5E43151C7C8F59001202C0 /* Stripe.framework in Frameworks */,
+				CDEC89ED1C6655ED006D0470 /* libicucore.tbd in Frameworks */,
+				CDEC89EB1C6655DB006D0470 /* libc++.tbd in Frameworks */,
+				CD9602A71CB0706F00B5DE03 /* libopencv_imgproc.a in Frameworks */,
+				CDEC89E11C66555D006D0470 /* AVFoundation.framework in Frameworks */,
+				CDEC89E21C66555D006D0470 /* CoreData.framework in Frameworks */,
+				CDEC89E31C66555D006D0470 /* CoreLocation.framework in Frameworks */,
+				CDEC89E41C66555D006D0470 /* CoreText.framework in Frameworks */,
+				CD523CE01C8E64EF00EBB50C /* Parse.framework in Frameworks */,
+				CDEC89E51C66555D006D0470 /* GLKit.framework in Frameworks */,
+				CDEC89E61C66555D006D0470 /* ImageIO.framework in Frameworks */,
+				CD523CDF1C8E64EF00EBB50C /* Bolts.framework in Frameworks */,
+				CDEC89E81C66555D006D0470 /* QuartzCore.framework in Frameworks */,
+				CDEC89E91C66555D006D0470 /* SystemConfiguration.framework in Frameworks */,
+				CDEC89D51C6654B1006D0470 /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +212,21 @@
 			children = (
 				CD229F0D1C60DF9400B86692 /* AppDelegate.h */,
 				CD229F0E1C60DF9400B86692 /* AppDelegate.m */,
-				CD229F101C60DF9400B86692 /* ViewController.h */,
-				CD229F111C60DF9400B86692 /* ViewController.m */,
+				CDCE891E1CA6C4E700F27AA4 /* ViewControllers */,
+				CDDD7F841C9F1D9300B13B56 /* WoofCreditCard.h */,
+				CDDD7F851C9F1D9300B13B56 /* WoofCreditCard.m */,
+				CD9602A81CB1501900B5DE03 /* WoofPet.h */,
+				CD9602A91CB1501900B5DE03 /* WoofPet.m */,
+				CDDD7F871C9F1EE700B13B56 /* ConnectionManager.h */,
+				CDDD7F881C9F1EE700B13B56 /* ConnectionManager.m */,
 				CD229F131C60DF9400B86692 /* Main.storyboard */,
-				CD229F161C60DF9400B86692 /* Assets.xcassets */,
 				CD229F181C60DF9400B86692 /* LaunchScreen.storyboard */,
 				CD229F1B1C60DF9400B86692 /* Info.plist */,
+				CDEC89F51C669790006D0470 /* menuButton.png */,
+				CDCE89221CAA087100F27AA4 /* Assets.xcassets */,
+				CD9602991CB0706F00B5DE03 /* CardIO */,
+				CDEC89F41C6657EF006D0470 /* Frameworks */,
+				CD229F291C62E46A00B86692 /* SWRevealViewController */,
 				CD229F0A1C60DF9400B86692 /* Supporting Files */,
 			);
 			path = Woof;
@@ -77,6 +238,99 @@
 				CD229F0B1C60DF9400B86692 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD229F291C62E46A00B86692 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD229F261C62E46300B86692 /* SWRevealViewController.h */,
+				CD229F271C62E46300B86692 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		CD9602991CB0706F00B5DE03 /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				CD96029A1CB0706F00B5DE03 /* CardIO.h */,
+				CD96029B1CB0706F00B5DE03 /* CardIOCreditCardInfo.h */,
+				CD96029C1CB0706F00B5DE03 /* CardIODetectionMode.h */,
+				CD96029D1CB0706F00B5DE03 /* CardIOPaymentViewController.h */,
+				CD96029E1CB0706F00B5DE03 /* CardIOPaymentViewControllerDelegate.h */,
+				CD96029F1CB0706F00B5DE03 /* CardIOUtilities.h */,
+				CD9602A01CB0706F00B5DE03 /* CardIOView.h */,
+				CD9602A11CB0706F00B5DE03 /* CardIOViewDelegate.h */,
+				CD9602A21CB0706F00B5DE03 /* libCardIO.a */,
+				CD9602A31CB0706F00B5DE03 /* libopencv_core.a */,
+				CD9602A41CB0706F00B5DE03 /* libopencv_imgproc.a */,
+			);
+			path = CardIO;
+			sourceTree = "<group>";
+		};
+		CDCE891E1CA6C4E700F27AA4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CDDD7F8A1C9F396F00B13B56 /* ActivitySpinnerViewController.h */,
+				CDDD7F8B1C9F396F00B13B56 /* ActivitySpinnerViewController.m */,
+				CDCE891F1CA8985A00F27AA4 /* AddCardViewController.h */,
+				CDCE89201CA8985A00F27AA4 /* AddCardViewController.m */,
+				CDFDF9EB1CA018C3005395D3 /* EditCardViewController.h */,
+				CDFDF9EC1CA018C3005395D3 /* EditCardViewController.m */,
+				CD5E43111C7BE9AA001202C0 /* EditPetViewController.h */,
+				CD5E43121C7BE9AA001202C0 /* EditPetViewController.m */,
+				CDEC8A001C6CBCDB006D0470 /* HistoryViewController.h */,
+				CDEC8A011C6CBCDB006D0470 /* HistoryViewController.m */,
+				CD229F101C60DF9400B86692 /* MapViewController.h */,
+				CD229F111C60DF9400B86692 /* MapViewController.m */,
+				CD229F2A1C62E50600B86692 /* MenuViewController.h */,
+				CD229F2B1C62E50600B86692 /* MenuViewController.m */,
+				CD5E43161C7C901B001202C0 /* PaymentViewController.h */,
+				CD5E43171C7C901B001202C0 /* PaymentViewController.m */,
+				CDEC89FA1C6CBAE8006D0470 /* PetsViewController.h */,
+				CDEC89FB1C6CBAE8006D0470 /* PetsViewController.m */,
+				CDEC89F71C669FF6006D0470 /* SettingsViewController.h */,
+				CDEC89F81C669FF6006D0470 /* SettingsViewController.m */,
+				CD523CED1C94B3BD00EBB50C /* SignUpViewController.h */,
+				CD523CEE1C94B3BD00EBB50C /* SignUpViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CDEC89F41C6657EF006D0470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD523CE11C8E661200EBB50C /* AudioToolbox.framework */,
+				CD523CE21C8E661200EBB50C /* CFNetwork.framework */,
+				CD523CE31C8E661200EBB50C /* CoreGraphics.framework */,
+				CD523CE41C8E661200EBB50C /* libsqlite3.tbd */,
+				CD523CE51C8E661200EBB50C /* Security.framework */,
+				CD523CE61C8E661200EBB50C /* StoreKit.framework */,
+				CD523CDD1C8E64EF00EBB50C /* Bolts.framework */,
+				CD523CDE1C8E64EF00EBB50C /* Parse.framework */,
+				CD5E43141C7C8F59001202C0 /* Stripe.framework */,
+				CDEC89D61C6654F3006D0470 /* GoogleMaps.bundle */,
+				CDEC89D41C6654B1006D0470 /* GoogleMaps.framework */,
+				CDEC89F21C665696006D0470 /* Accelerate.framework */,
+				CDEC89F01C66564E006D0470 /* CoreBluetooth.framework */,
+				CDEC89EE1C6655F7006D0470 /* libz.tbd */,
+				CDEC89EC1C6655ED006D0470 /* libicucore.tbd */,
+				CDEC89EA1C6655DB006D0470 /* libc++.tbd */,
+				CDCCBC721CB068F9007BF60B /* UIKit.framework */,
+				CDCCBC701CB06866007BF60B /* MobileCoreServices.framework */,
+				CDCCBC6E1CB06858007BF60B /* Foundation.framework */,
+				CDCCBC6C1CB06844007BF60B /* CoreVideo.framework */,
+				CDCCBC6A1CB06834007BF60B /* CoreMedia.framework */,
+				CDEC89D81C66555D006D0470 /* AVFoundation.framework */,
+				CDEC89D91C66555D006D0470 /* CoreData.framework */,
+				CDEC89DA1C66555D006D0470 /* CoreLocation.framework */,
+				CDEC89DB1C66555D006D0470 /* CoreText.framework */,
+				CDEC89DC1C66555D006D0470 /* GLKit.framework */,
+				CDEC89DD1C66555D006D0470 /* ImageIO.framework */,
+				CDEC89DE1C66555D006D0470 /* OpenGLES.framework */,
+				CDEC89DF1C66555D006D0470 /* QuartzCore.framework */,
+				CDEC89E01C66555D006D0470 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +391,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD229F1A1C60DF9400B86692 /* LaunchScreen.storyboard in Resources */,
-				CD229F171C60DF9400B86692 /* Assets.xcassets in Resources */,
+				CDEC89F61C669790006D0470 /* menuButton.png in Resources */,
+				CD229F241C62E39B00B86692 /* SWRevealViewController in Resources */,
 				CD229F151C60DF9400B86692 /* Main.storyboard in Resources */,
+				CDCE89231CAA087100F27AA4 /* Assets.xcassets in Resources */,
+				CDEC89D71C6654F3006D0470 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +406,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD229F121C60DF9400B86692 /* ViewController.m in Sources */,
+				CD229F121C60DF9400B86692 /* MapViewController.m in Sources */,
+				CDEC89FC1C6CBAE8006D0470 /* PetsViewController.m in Sources */,
 				CD229F0F1C60DF9400B86692 /* AppDelegate.m in Sources */,
+				CDDD7F8C1C9F396F00B13B56 /* ActivitySpinnerViewController.m in Sources */,
+				CDCE89211CA8985A00F27AA4 /* AddCardViewController.m in Sources */,
+				CD5E43181C7C901B001202C0 /* PaymentViewController.m in Sources */,
+				CDEC8A021C6CBCDB006D0470 /* HistoryViewController.m in Sources */,
 				CD229F0C1C60DF9400B86692 /* main.m in Sources */,
+				CD229F281C62E46300B86692 /* SWRevealViewController.m in Sources */,
+				CDDD7F861C9F1D9300B13B56 /* WoofCreditCard.m in Sources */,
+				CDDD7F891C9F1EE700B13B56 /* ConnectionManager.m in Sources */,
+				CD5E43131C7BE9AA001202C0 /* EditPetViewController.m in Sources */,
+				CDFDF9ED1CA018C3005395D3 /* EditCardViewController.m in Sources */,
+				CD9602AA1CB1501A00B5DE03 /* WoofPet.m in Sources */,
+				CDEC89F91C669FF6006D0470 /* SettingsViewController.m in Sources */,
+				CD523CEF1C94B3BD00EBB50C /* SignUpViewController.m in Sources */,
+				CD229F2C1C62E50600B86692 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +487,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -252,6 +524,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -261,8 +534,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Woof",
+				);
 				INFOPLIST_FILE = Woof/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Woof/CardIO",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = patwhitehead.Woof;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -272,8 +557,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Woof",
+				);
 				INFOPLIST_FILE = Woof/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Woof/CardIO",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = patwhitehead.Woof;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -298,6 +595,7 @@
 				CD229F201C60DF9400B86692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
